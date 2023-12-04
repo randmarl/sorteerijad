@@ -1,0 +1,60 @@
+h1 {
+    font-size: 3em;
+    color: #3e2723;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+
+body {
+    background-color: rgb(243, 209, 173);
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+body {
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+.text-and-videos {
+    clear: both; /* Taga selle elemendiga, et paigutada see ülevalt */
+}
+
+.custom-video {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 20px 20px 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row; /* Aseta elemendid ritta */
+    align-items: flex-start; /* Alusta ülevalt */
+}
+
+.text {
+    width: 50%; /* Määra teksti laius */
+    padding-right: 20px; /* Lisa soovitud vahet paremal pool */
+}
+
+.image {
+    width: 50%; /* Määra pildi laius */
+}
